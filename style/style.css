@@ -1,0 +1,330 @@
+
+  
+
+
+
+.sliderimg{
+    filter:blur(3px);
+    filter: contrast(50%);
+    filter: brightness(50%);
+}
+
+
+
+
+.te{
+    width: 75%;
+    margin: 20px 15%;
+    background-color: rgba(114, 115, 116, 0.63);
+}
+.all{
+    background-image: url(./image/سارا.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.etelat{
+    background-image: url(./image/All/1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gip{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.ozviat{
+    background-image: url(../image/سارا.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.tellozviat{
+    width: 75%;
+    margin: 20px 15%;
+    background-color: rgba(114, 115, 116, 0.63);
+}
+.amanat{
+    background-image: url(../image/پزشکی.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.tellamanat{
+    width: 75%;
+    margin: 20px 15%;
+    background-color: rgba(114, 115, 116, 0.63);
+}
+.bookezafe{
+    background-image: url(./image/302020.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.tellbookezafe{
+    width: 75%;
+    margin: 20px 15%;
+    background-color: rgba(114, 115, 116, 0.63);
+}
+.bookeditetelat{
+    background-image: url(./image/8585.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.tellbookeditetalat{
+    width: 75%;
+    height: 55%;
+    margin: 20px 15%;
+    background-color: rgba(114, 115, 116, 0.63);
+}
+.sabtpersonel{
+    background-image: url(image/hj.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.sabtp{
+    width: 75%;
+    margin: 20px 15%;
+    background-color: rgba(114, 115, 116, 0.63);
+}
+.tp{
+    background-image: url(./image/iii.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.tpf{
+    width: 75%;
+    height: 81%;
+    margin: 20px 15%;
+    background-color: rgba(114, 115, 116, 0.63);
+}
+.footer{
+    text-decoration: none;
+    color: black;
+}
+
+.footer:hover{
+    color: black;
+}
+.footer-h
+{
+    border-bottom: 1px solid;
+    height: 35px;
+}
+.sabtranande{
+    background-image: url(./image/1444.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.sabtranandef{
+    width: 75%;
+    margin: 20px 15%;
+    background-color: rgba(114, 115, 116, 0.63);
+}
+.editranande{
+    background-image: url(./image/1455.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.editranandef{
+    width: 75%;
+    margin: 20px 15%;
+    background-color: rgba(114, 115, 116, 0.63);
+}
+.fg{
+    background-color:rgb(236, 236, 236);
+}
+.tcolor{
+    color: rgb(57, 8, 104);
+}
+
+.colortetelet{
+    color: rgb(57, 8, 104);
+
+}
+.textranandecolor{
+    color: rgb(233, 117, 22);
+
+}
+.table-color{
+    background-color: rgb(186, 177, 202);
+}
+.textcolorozviat{
+    color: rgb(57, 8, 104)
+
+
+}
+.textcoloramanat{
+    color: rgb(57, 8, 104)
+
+}
+.colorborder{
+    background-color: rgb(186, 177, 202);
+
+}
+.colorkarbaranp{
+    background-color: rgb(186, 177, 202);
+
+}
+.adabiatcolor{
+    background-color: rgb(186, 177, 202);
+
+
+}
+.ashpazicolor{
+    background-color: rgb(186, 177, 202);
+
+
+}
+.bazicolor{
+    background-color: rgb(186, 177, 202);
+
+
+}
+.ejtemaicolor{
+    background-color: rgb(186, 177, 202);
+
+}
+.falsafecolor{
+    background-color: rgb(186, 177, 202);
+
+}
+.fizikcolor{
+    background-color: rgb(186, 177, 202);
+
+}
+.mazhabicolor{
+    background-color: rgb(186, 177, 202);
+
+}
+.riazicolor{
+    background-color: rgb(186, 177, 202);
+
+}
+.romancolor{
+    background-color: rgb(186, 177, 202);
+
+}
+.shimicolor{
+    background-color: rgb(186, 177, 202);
+
+}
+.siasicolor{
+    background-color: rgb(186, 177, 202);
+
+}
+.varzeshcolor{
+    background-color: rgb(186, 177, 202);
+
+}
+.hamebookp{
+    background-color: rgb(186, 177, 202);
+
+}
+.p-footer{
+    background-color:rgb(246, 245, 245);
+
+
+}
+.a-footer{
+    background-color: rgb(246, 245, 245);
+
+}
+.a-adabiatcolor{
+    background-color: rgb(186, 177, 202);
+
+}
+.a-ashpazicolor{
+    background-color: rgb(186, 177, 202);
+
+}
+.a-bazicolor{
+    background-color: rgb(186, 177, 202);
+
+}
+.a-ejtemaiicolor{
+    background-color: rgb(186, 177, 202);
+
+}
+.a-falsafecolor{
+    background-color: rgb(186, 177, 202);
+
+}
+.a-fizikcolor
+{
+    background-color: rgb(186, 177, 202);
+
+}
+.a-mazhabicolor{
+    background-color: rgb(186, 177, 202);
+
+}
+.a-riazicolor{
+    background-color: rgb(186, 177, 202);
+
+}
+.a-romancolor{
+    background-color: rgb(186, 177, 202);
+
+}
+.a-shimicolor{
+    background-color: rgb(186, 177, 202);
+}
+.a-siasicolor{
+    background-color: rgb(186, 177, 202);
+
+}
+.a-varzeshcolor{
+    background-color: rgb(186, 177, 202);
+
+}
+.a-hamebookcolor {
+    background-color: rgb(186, 177, 202);
+
+}
+.a-personelcolor{
+    background-color: rgb(186, 177, 202);
+}
+.textcolorp{
+    color:rgb(233, 117, 22);
+
+}
+.admin{
+    background-image: url(../image/hj.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.a-karbarancolor{
+    background-color: rgb(186, 177, 202);
+
+}
+.a-ranandecolor{
+    background-color: rgb(186, 177, 202);
+
+}
+.tcoloradmin{
+    color:rgb(233, 117, 22) ;
+}
+.personel{
+    background-image: url(../image/کککک.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.tcolorpersonal{
+    color:rgb(233, 117, 22) ;
+
+}
+.colorborderamanatk{
+    background-color: rgb(186, 177, 202);
+
+}
+.index{
+    background-color: rgb(246, 245, 245);
+}

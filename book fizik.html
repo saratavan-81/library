@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link 
+     rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.rtl.min.css" 
+      integrity="sha384-+qdLaIRZfNu4cVPK/PxJJEy0B0f3Ugv8i482AKY7gwXwhaCroABd086ybrVKTa0q"
+       crossorigin="anonymous">
+</head>
+<body>
+
+  <nav class="navbar  fixed-top shadow " style="background-color: #6610f2;">
+    <div class="container-fluid" >
+      <img src="./image/home.png" alt="" width="60" height="60" class="d-inline-block align-text-top">
+
+      <button class="navbar-toggler " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" >
+        <img src="./image/search.svg" alt="" width="40" height="40" class="d-inline-block align-text-top">
+
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">صفحه جستجو :</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+    
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="دنبال چه می گردید ؟" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">جستجو</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <br><br><br><br>  
+  <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb"><nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">        <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#">صفحه اصلی</a></li>
+    <li class="breadcrumb-item"><a href="#">صفحه کاربر</a></li>
+    <li class="breadcrumb-item active" aria-current="page">   کتاب های فیزیک </li>
+  </ol>
+</nav>
+         
+
+      <div class="mb-5"></div>
+
+ 
+      <div  class=" conteiner row gx-3">
+        <div class="list-group   col-2">
+          <a  class="list-group-item list-group-item-action disabled col-6 list-group-flush" aria-current="true" >
+            <div class="d-flex w-100 justify-content-between">
+              <br><br>
+              <small><img src="./image/journal-bookmark-fill.svg " class="img-fluid" alt="..." height="50px" width="50px"></small>
+              
+            </div>    
+       
+          </a>
+          </a>
+          <div class="dropdown dropend">
+          <a href="#" class="list-group-item list-group-item-action list-group-item-warning d-flex justify-content-between align-items-center dropdown-toggle btn-outline-dark" data-bs-toggle="dropdown"style="background-color:#6610f2; color: white;">     <br><br>
+            <img src="./image/person-rolodex.svg" class="img-fluid" alt="..." height="25px" width="25px">
+  <p>امور مربوط به خود</p>
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuLink">
+            <li><h6 class="dropdown-header"> کاربران</h6></li>
+            <li><a class="dropdown-item" href="#">اطلاعات کاربر</a></li>
+            <li><a class="dropdown-item" href="#"> ویرایش اطلاعات کاربر</a></li>
+          </ul>
+          </div>
+          <div class="dropdown dropend">
+          <a href="#" class="list-group-item list-group-item-action list-group-item-warning d-flex justify-content-between align-items-center dropdown-toggle btn-outline-dark" data-bs-toggle="dropdown" style="background-color:#6610f2; color: white;">   <br><br>
+            <img src="./image/journal-text.svg" class="img-fluid" alt="..." height="25px" width="25px">
+  <p>امور امانت کتاب </p>
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuLink">
+            <li><h6 class="dropdown-header">امانت </h6></li>
+            <li><a class="dropdown-item" href="#"> نمایش کتاب های  امانتی  </a></li>
+            <li><a class="dropdown-item" href="#">  مدیریت کتاب های امانتی</a></li>
+          </ul>
+          </div>
+          <div class="dropdown dropend">
+          <a href="#" class="list-group-item list-group-item-action list-group-item-warning d-flex justify-content-between align-items-center dropdown-toggle btn-outline-dark" data-bs-toggle="dropdown" style="background-color:#6610f2; color: white;">    <br><br>
+            <img src="./image/bookshelf.svg" class="img-fluid" alt="..." height="25px" width="25px">
+  <p>نمایش کتاب های کتابخانه</p>
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuLink">
+            <li><h6 class="dropdown-header"> کتاب ها</h6></li>
+            <li><a class="dropdown-item" href="#">ادبیات و فرهنگ</a></li>
+            <li><a class="dropdown-item" href="#"> اجتماعی</a></li>
+            <li><a class="dropdown-item" href="#">  سیاسی</a></li>
+            <li><a class="dropdown-item" href="#">  داستانی</a></li>
+            <li><a class="dropdown-item" href="#">  رمان </a></li>
+            <li><a class="dropdown-item" href="#">فلسفه و منطق </a></li>
+            <li><a class="dropdown-item" href="#"> مذهبی و دینی</a></li>
+            <li><a class="dropdown-item" href="#">  ریاضیات</a></li>
+            <li><a class="dropdown-item" href="#">  فیزیک</a></li>
+            <li><a class="dropdown-item" href="#">  شیمی</a></li>
+            <li><a class="dropdown-item" href="#">  بازی و سرگرمی</a></li>
+            <li><a class="dropdown-item" href="#">  اشپزی</a></li>
+            <li><a class="dropdown-item" href="#">  ورزشی</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#"> نمایش همه کتاب ها</a></li>
+          </ul>
+       </div>
+          <div class="dropdown dropend">
+        <a href="#"  class="list-group-item list-group-item-action list-group-item-warning d-flex justify-content-between align-items-center  dropdown-toggle btn-outline-dark" data-bs-toggle="dropdown" style="background-color:#6610f2; color: white;">   <br><br>
+          <img src="./image/alarm.svg" class="img-fluid" alt="..." height="25px" width="25px">
+  <p>امور تمدید</p>
+        </a>
+        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuLink">
+          <li><h6 class="dropdown-header"> مدیریت تمدید ها</h6></li>
+          <li><a class="dropdown-item" href="#">تمدید عضویت</a></li>
+          <li><a class="dropdown-item" href="#"> تمدید امانت</a></li>
+        </ul>
+        </div>
+          <a  href="#" class="list-group-item list-group-item-action list-group-item-warning d-flex justify-content-between align-items-center btn-outline-dark " style="background-color:#6610f2; color: white;"> <br><br>
+            <img src="./image/file-arrow-up-fill.svg" class="img-fluid" alt="..." height="25px" width="25px">
+  <p>صفحه اصلی</p>
+          </a>
+       
+          <a   class="list-group-item list-group-item-action  btn-outline-dark" style="background-color:#6610f2; color: white;">
+          <br><br>
+          <br><br>
+          <br><br>
+          <br><br>
+          <br><br>
+          <br><br>
+          <br><br>
+  <br><br>
+  <br><br>
+  <br><br>        <br><br>
+  
+  </a>
+  </div>
+    <div class=" col-10">
+     <br><br><br>
+     <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand">دنبال چه میگردید؟</a>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="بنویسید..." aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">جستجو</button>
+          </form>
+        </div>
+      </nav>
+        <table class="table table-hover table-bordered border-success  align-middle">
+            <thead>
+                                    
+              <tr class="table-dark">
+                <th scope="col">شماره</th>
+                <th scope="col"> عنوان کتاب </th>
+                <th scope="col">موضوع</th>
+                <th scope="col">کد کتاب</th>
+                <th scope="col"> نام نویسنده</th>
+                <th scope="col">سال انتشار </th>
+                <th scope="col"> مترجم</th>
+                <th scope="col"> امانت</th>
+
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="table-light border-success">
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;<button type="button" class="btn btn-outline-success ">امانت</button></td>
+
+              </tr>
+              <tr class="table-secondary border-success">
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;<button type="button" class="btn btn-outline-success ">امانت</button></td>
+
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td >Larry the Bird</td>
+                <td>@twitter</td>
+                <td >Larry the Bird</td>
+                <td>@twitter</td>
+                <td>@twitter</td>
+                <td>@twitter</td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;<button type="button" class="btn btn-outline-success ">امانت</button></td>
+
+              </tr>
+              <tr class="table-success border-success">
+                <th scope="row">4</th>
+                <td >Larry the Bird</td>
+                <td>@twitter</td>
+                <td>Larry the Bird</td>
+                <td>@twitter</td>
+                <td>@twitter</td>
+                <td>@twitter</td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;<button type="button" class="btn btn-outline-success ">امانت</button></td>
+
+              </tr>
+              <tr class="table-light border-success">
+                <th scope="row">5</th>
+                <td>Larry the Bird</td>
+                <td>@twitter</td>
+                <td>Larry the Bird</td>
+                <td>@twitter</td>
+                <td>@twitter</td>
+                <td>@twitter</td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;<button type="button" class="btn btn-outline-success ">امانت</button></td>
+
+              </tr>
+              <tr class="table-secondary border-success">
+                <th scope="row">6</th>
+                <td>Larry the Bird</td>
+                <td>@twitter</td>
+                <td>Larry the Bird</td>
+                <td>@twitter</td>
+                <td>@twitter</td>
+                <td>@twitter</td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;<button type="button" class="btn btn-outline-success ">امانت</button></td>
+
+              </tr>
+              <tr >
+                <th scope="row">7</th>
+                <td>Larry the Bird</td>
+                <td>@twitter</td>
+                <td >Larry the Bird</td>
+                <td>@twitter</td>
+                <td>@twitter</td>
+                <td>@twitter</td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;<button type="button" class="btn btn-outline-success ">امانت</button></td>
+
+              </tr>
+              <tr class="table-success border-success">
+                <th scope="row">8</th>
+                <td >Larry the Bird</td>
+                <td>@twitter</td>
+                <td>Larry the Bird</td>
+                <td>@twitter</td>
+                <td>@twitter</td>
+                <td>@twitter</td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;<button type="button" class="btn btn-outline-success ">امانت</button></td>
+
+              </tr>
+              <tr class="table-light border-success">
+                <th scope="row">9</th>
+                <td>Larry the Bird</td>
+                <td>@twitter</td>
+                <td>Larry the Bird</td>
+                <td>@twitter</td>
+                <td>@twitter</td>
+                <td>@twitter</td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;<button type="button" class="btn btn-outline-success ">امانت</button></td>
+
+              </tr>
+              <tr class="table-secondary border-success">
+                <th scope="row">10</th>
+                <td >Larry the Bird</td>
+                <td>@twitter</td>
+                <td >Larry the Bird</td>
+                <td>@twitter</td>
+                <td>@twitter</td>
+                <td>@twitter</td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;<button type="button" class="btn btn-outline-success ">امانت</button></td>
+
+              </tr>
+              <tr >
+                <th scope="row">11</th>
+                <td >Larry the Bird</td>
+                <td>@twitter</td>
+                <td >Larry the Bird</td>
+                <td>@twitter</td>
+                <td>@twitter</td>
+                <td>@twitter</td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;<button type="button" class="btn btn-outline-success ">امانت</button></td>
+
+              </tr>
+              <tr class="table-success border-success">
+                <th scope="row">12</th>
+                <td >Larry the Bird</td>
+                <td>@twitter</td>
+                <td >Larry the Bird</td>
+                <td>@twitter</td>
+                <td>@twitter</td>
+                <td>@twitter</td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;<button type="button" class="btn btn-outline-success ">امانت</button></td>
+
+              </tr>
+              <tr class="table-light border-success">
+                <th scope="row">13</th>
+                <td >Larry the Bird</td>
+                <td>@twitter</td>
+                <td >Larry the Bird</td>
+                <td>@twitter</td>
+                <td>@twitter</td>
+                <td>@twitter</td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;<button type="button" class="btn btn-outline-success ">امانت</button></td>
+
+              </tr>
+              <tr class="table-secondary border-success">
+                <th scope="row">14</th>
+                <td >Larry the Bird</td>
+                <td>@twitter</td>
+                <td>Larry the Bird</td>
+                <td>@twitter</td>
+                <td>@twitter</td>
+                <td>@twitter</td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;<button type="button" class="btn btn-outline-success ">امانت</button></td>
+
+              </tr>
+              <tr>
+                <th scope="row">15</th>
+                <td >Larry the Bird</td>
+                <td>@twitter</td>
+                <td >Larry the Bird</td>
+                <td>@twitter</td>
+                <td>@twitter</td>
+                <td>@twitter</td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;<button type="button" class="btn btn-outline-success ">امانت</button></td>
+
+              </tr>
+              <tr class="table-success border-success">
+                <th scope="row">15</th>
+                <td>Larry the Bird</td>
+                <td>@twitter</td>
+                <td>Larry the Bird</td>
+                <td>@twitter</td>
+                <td>@twitter</td>
+                <td>@twitter</td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;<button type="button" class="btn btn-outline-success ">امانت</button></td>
+
+              </tr>
+            </tbody>
+          </table>  
+        
+
+    
+    
+    
+        
+             
+         
+        </div>
+        </div>
+      
+    
+    
+
+           
+
+          
+    <script 
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
+     crossorigin="anonymous">
+    </script>
+    </body>

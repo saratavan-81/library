@@ -1,0 +1,17 @@
+<?php
+
+session_name('dashboard');
+session_start();
+
+if (isset($_SESSION['admin-dashboard']) && $_SESSION['admin-dashboard'] === true) : ?>
+
+    <!-- put page content here  -->
+
+<?php
+
+else :
+    header("HTTP/1.1 403 Forbidden");
+    die('HTTP 403 Forbidden – Access Denied!');
+endif;
+
+?>
